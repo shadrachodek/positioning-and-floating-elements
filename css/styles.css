@@ -95,3 +95,51 @@ main {
 .header-links button {
 	display: inline;
 }
+
+h1{
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.headline span{
+	display: inline-block;
+}
+
+.mainImg{
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	cursor: pointer;
+}
+
+.mainImg img{
+	width: 100%;
+	height: 500px;
+}
+
+.content{
+	width: 45%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.socialIcons{
+	float: right;
+	list-style-type: none;
+	margin-top: 0;
+	
+}
+
+.socialIcons li{
+	display: inline;
+	
+}
+
+aside{
+	float: right;
+	width: 20%;
+	vertical-align: top;
+	background-color: red;
+}
