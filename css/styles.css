@@ -1,51 +1,97 @@
 *,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
 	margin: 0;
 	padding: 0;
 }
 
-header{
+header {
+	border: 1px solid #e2e2e2;
+	box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.1);
+	height: 45px;
+	padding: 4px 15px 2px;
 	position: fixed;
-	border: 1px solid green;
+	margin: 0 auto;
+	z-index: 1;
+	max-width: 1605px;
 	top: 0;
-	right: 0;
 	width: 100%;
 }
 
-.navIcons{
+header ul {
+	position: relative;
+	bottom: 8px;
+	right: 80px;
 	float: left;
-	width: 30%;
 }
 
-.logo{
-	width: 20%;
-	margin-left: auto;
-	margin-right: auto;
+header ul li {
+	float: left;
+	list-style-type: none;
 }
 
-.headerButtons{
-	float: right;
-	width: 30%;
-	vertical-align: top;
+.navIcons .search {
+	position: relative;
+	right: 60px;
 }
 
-main{
+.navIcons .text-link {
+	position: relative;
+	right: 70px;
+	font-size: 14.25px;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	line-height: 19px;
+}
+
+.header-links button {
+	background-color: #6288a5;
+	border: 1px solid #326891;
+	border-radius: 3px;
+	padding: 11px 12px 8px;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	cursor: pointer;
+	font-size: 11px;
+	color: #fff;
+	line-height: 11px;
+	letter-spacing: 0.05em;
+	font-weight: 700;
+}
+
+.navIcons img {
+	height: 15px;
+	width: 100px;
+	/* padding: 0 40px; */
+}
+
+.logo {
+	float: left;
+	/* height: 15px; */
+	margin-top: 2px;
+	margin-left: 120px;
+	position: relative;
+	/* right: 500px; */
+	width: 35%;
+}
+
+main {
 	clear: both;
 	margin-top: 120px;
 }
 
-.headerImages{
-
+.header-links {
+	float: right;
 }
 
-img{
-	width: 100px;
-	height: 100px;
+.header-links button {
+	display: inline;
 }
