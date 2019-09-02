@@ -209,3 +209,35 @@ aside {
 	margin-left: auto;
 	max-width: 45%;
 }
+
+.bottom-content{
+	width: 100%;
+}
+
+.more-space-cosmos{
+	width: 60%;
+	border-top: 1px solid black;
+	float: left;
+}
+
+.most-popular{
+	width: 30%;
+	border-top: 1px solid black;
+}
+
+.image-grid{
+	display: inline-block;
+	width: 20%;
+	float: left;
+}
+
+.image-grid img{
+	width: 251px;
+	height: 167px;
+	margin: 0;
+}
+
+.image-grid h2{
+	font-size: 12px;
+    line-height: 22px;
+}
