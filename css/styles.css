@@ -148,26 +148,64 @@ aside {
 	background-color: red;
 }
 
-.theory-image{
-	width:80%;
-	margin-left: auto;
+.theory-image {
+	background: url(../images/inflation-945.png) center no-repeat;
+	background-size: contain;
+	height: 600px;
+	margin: 15px 0;
+	font-size: 14px;
+	position: relative;
+}
+
+.the-universe,
+.not-enough-time,
+.distant-coffee,
+.coffee-everywhere,
+.still-not-enough-time,
+.inflation,
+.fluctuation,
+.expansion {
+	position: absolute;
+	top: 27%;
+	width: 260px;
+	line-height: 17px;
+	font-weight: 300;
+	padding: 0 20px;
+	text-align: left;
+}
+
+.still-not-enough-time,
+.inflation,
+.fluctuation,
+.expansion {
+	top: 75%;
+}
+
+.the-universe,
+.still-not-enough-time {
+	left: 100px;
+}
+
+.not-enough-time,
+.inflation {
+	left: 350px;
+}
+
+.distant-coffee,
+.fluctuation {
+	right: 350px;
+}
+
+.coffee-everywhere,
+.expansion {
+	right: 95px;
+}
+
+.iframe {
+	/* border: 1px solid black; */
+	/* width: 45%; */
+	/* height: 300px; */
 	margin-right: auto;
-}
-
-.theory-image div img {
-	width: 300px;
-}
-
-.theory-content{
-	display: inline-block;
-	font-size: 10px;
-	width: 20%;
-}
-
-.iframe{
-	border: 1px solid black;
-	width: 45%;
-	height: 300px;
-	margin-right: auto;
 	margin-left: auto;
+	max-width: 45%;
 }
