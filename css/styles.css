@@ -211,33 +211,53 @@ aside {
 }
 
 .bottom-content{
-	width: 100%;
+	width: 1400px;
+	margin: auto;
 }
 
 .more-space-cosmos{
-	width: 60%;
+	width: 70%;
 	border-top: 1px solid black;
-	float: left;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
 }
 
 .most-popular{
-	width: 30%;
+	width: 25%;
+	display: inline-block;
 	border-top: 1px solid black;
+	margin-left: 38px;
 }
 
 .image-grid{
+	width: 32%;
 	display: inline-block;
-	width: 20%;
-	float: left;
+	border: 1px solid black; 
 }
 
 .image-grid img{
-	width: 251px;
+	width: 240px;
 	height: 167px;
+}
+
+.image-grid figure{
 	margin: 0;
 }
 
 .image-grid h2{
 	font-size: 12px;
     line-height: 22px;
+}
+
+.editors-picks {
+	border-top: 1px solid black;
+	margin-top: 16px;
+	padding-top: 4px;
+}
+
+.footer-nav {
+	display: inline-block;
+	vertical-align: top;
+	width: 15%;
 }
