@@ -88,7 +88,7 @@ header ul li {
 main {
 	clear: both;
 	max-width: 1200px;
-  margin: 0 auto;
+  	margin: 0 auto;
 }
 
 .header-links {
@@ -321,4 +321,57 @@ ul#most-popular li {
 	font-weight: 500;
 	line-height: 1.375em;
 	color: rgb(18, 18, 18);
+}
+
+.main-footer {
+	max-width: 1200px;
+	padding: 0;
+	margin: auto;
+}
+
+.footer-header {
+	margin-top: 48px;
+	margin-bottom: 16px;
+}
+
+.footer-nav {
+	width: 16%;
+}
+
+.footer-header__heading {
+	float: left;
+	margin: 0;
+	width: 15%;
+}
+
+.footer-header__link {
+	float: right;
+
+}
+
+.clear-fix {
+	clear: both;
+}
+
+.footer-nav__heading {
+	cursor: pointer;
+    margin: 0;
+    border-top: 1px solid #ebebeb;
+	font-size: 13px;
+	font-weight: 700;
+	color: #333;
+	height: 44px;
+	letter-spacing: 0.04rem;
+    line-height: 44px;
+}
+
+.footer-nav__link {
+	margin-left: -40px;
+	margin-bottom: 8px;
+	font-size: 13px;
+}
+
+.footer-nav__link a {
+	text-decoration: none;
+	color: black;
 }
