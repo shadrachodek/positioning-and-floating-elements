@@ -12,6 +12,11 @@ body {
 	padding: 0;
 }
 
+ul li {
+	list-style-type: none;
+	/* overflow: hidden; */
+}
+
 header {
 	border: 1px solid #e2e2e2;
 	box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.1);
@@ -220,7 +225,7 @@ aside {
 	border-top: 1px solid black;
 	display: inline-block;
 	vertical-align: top;
-	margin: 0;
+	/* margin: 10px auto; */
 }
 
 .most-popular{
@@ -230,24 +235,37 @@ aside {
 	margin-left: 38px;
 }
 
-.image-grid{
+.image-grid {
 	width: 32%;
 	display: inline-block;
-	border: 1px solid black; 
+	padding: 10px;
 }
 
-.image-grid img{
-	width: 240px;
-	height: 167px;
+div.image-grid figcaption {
+	font-size: 0.625em;
+	text-align: right;
 }
 
-.image-grid figure{
+.image-grid img {
+	height: auto;
+	max-width: 100%;
+}
+
+.image-grid figure {
 	margin: 0;
 }
 
-.image-grid h2{
-	font-size: 12px;
-    line-height: 22px;
+.image-grid h2 {
+	font-size: 1.125rem;
+	line-height: 22px;
+	margin-top: 5px;
+	font-weight: 500;
+}
+
+.image-grid span time {
+	font-weight: 500;
+	color: gray;
+	font-size: 0.75em;
 }
 
 .editors-picks {
@@ -256,8 +274,51 @@ aside {
 	padding-top: 4px;
 }
 
+footer {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 3% 9px;
+}
+
 .footer-nav {
 	display: inline-block;
 	vertical-align: top;
 	width: 15%;
+}
+
+.more-space-cosmos-header {
+	padding: 10px;
+}
+
+.more-space-cosmos-header a,
+.most-popular-header > a {
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	font-size: 1.178em;
+}
+
+.most-popular-header a {
+	text-decoration: none;
+}
+
+.most-popular-header {
+	margin: 0;
+	padding: 10px;
+}
+
+ul#most-popular li {
+	border-top: 1px solid #ccc;
+	padding: 15px 0;
+}
+
+#most-popular {
+	padding: 15px 0;
+}
+
+.most-popular-header ul li a {
+	font-size: 1.125em;
+	font-weight: 500;
+	line-height: 1.375em;
+	color: rgb(18, 18, 18);
 }
