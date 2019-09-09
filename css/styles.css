@@ -132,6 +132,8 @@ h1 {
 	width: 45%;
 	margin-right: auto;
 	margin-left: auto;
+	font-size: 1.25rem;
+    line-height: 1.875rem;
 }
 
 .socialIcons {
@@ -346,6 +348,12 @@ ul#most-popular li {
 
 .footer-header__link {
 	float: right;
+	text-decoration: none;
+	color: rgb(98, 136, 165);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
 
 }
 
