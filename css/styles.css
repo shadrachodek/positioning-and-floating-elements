@@ -11,6 +11,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+	color: rgb(51, 51, 51);
 }
 
 ul li {
@@ -106,6 +107,7 @@ h1 {
 
 .headline span {
 	display: inline-block;
+	color: black;
 }
 
 .mainImg {
@@ -334,6 +336,16 @@ aside {
 	margin: 15px 0;
 	font-size: 14px;
 	position: relative;
+}
+
+#theory-image__author {
+	font-size: 14px;
+	width: 80%;
+	margin: auto;
+}
+
+p.subheading {
+	font-weight: 700;
 }
 
 .the-universe,
