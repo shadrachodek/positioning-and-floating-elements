@@ -27,7 +27,6 @@ header {
 	background: #fff;
 	margin: 0 auto;
 	z-index: 9999;
-	max-width: 1605px;
 	top: 0;
 	width: 100%;
 }
@@ -137,6 +136,12 @@ h1 {
 	line-height: 1.875rem;
 }
 
+.author-name {
+	width: 45%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 .author-name a {
 	font-size: 0.9em;
 	color: #333;
@@ -144,7 +149,7 @@ h1 {
 	text-decoration: none;
 }
 
-.article-nav time {
+.article-nav .article-date {
 	font-size: 0.9em;
 	color: #333;
 	font-weight: 500;
@@ -344,7 +349,7 @@ aside {
 	margin: auto;
 }
 
-p.subheading {
+h2.subheading {
 	font-weight: 700;
 }
 
@@ -395,6 +400,7 @@ p.subheading {
 .iframe {
 	margin-right: auto;
 	margin-left: auto;
+	border: none;
 	max-width: 45%;
 }
 
