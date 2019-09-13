@@ -1,3 +1,4 @@
+
 *,
 *::before,
 *::after {
@@ -22,8 +23,9 @@ header {
 	height: 45px;
 	padding: 4px 15px 2px;
 	position: fixed;
+	background: #fff;
 	margin: 0 auto;
-	z-index: 1;
+	z-index: 9999;
 	max-width: 1605px;
 	top: 0;
 	width: 100%;
@@ -87,13 +89,13 @@ header ul li {
 main {
 	clear: both;
 	max-width: 1200px;
-  	margin: 0 auto;
+	margin: 0 auto;
+	margin-top: 5em;
 }
 
 .header-links {
 	float: right;
 }
-
 
 h1 {
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -120,27 +122,115 @@ h1 {
 
 .mainImg figure figcaption {
 	text-align: left;
-	margin-right: 360px;
+	color: #666;
+	margin-right: 20%;
 }
 
-.content p, .article-nav{
+.content p,
+.article-nav {
 	width: 45%;
 	margin-right: auto;
 	margin-left: auto;
 	font-size: 1.25rem;
-    line-height: 1.875rem;
+	line-height: 1.875rem;
+}
+
+.author-name a {
+	font-size: 0.9em;
+	color: #333;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.article-nav time {
+	font-size: 0.9em;
+	color: #333;
+	font-weight: 500;
+	font-size: 0.8125em;
 }
 
 .socialIcons {
 	float: right;
 	list-style-type: none;
 	margin-top: 0;
+	margin-right: 15px;
+}
 
+.socialIcons .icon a {
+	text-decoration: none;
+	background: #eee;
+	border-radius: 100%;
+	padding: 5px;
+	border: 1px solid #eee;
+}
+
+.socialIcons .icon a img {
+	height: 15px;
+	width: 15px;
+	vertical-align: baseline;
 }
 
 .socialIcons li {
 	display: inline;
+	margin-right: 16px;
+	padding: 10px 0;
+}
 
+.socialIcons .save a {
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+.socialIcons .save a img {
+	position: relative;
+	top: 5px;
+}
+
+.socialIcons .post-count a {
+	text-decoration: none;
+	color: rgb(102, 102, 102);
+}
+
+.socialIcons .post-count .post-count--icon {
+	border: 1px solid rgb(102, 102, 102);
+	padding: 4px 6px;
+	border-radius: 4px;
+	border-image: initial;
+	background: transparent;
+	position: relative;
+	min-width: 26px;
+	min-height: 14px;
+	width: auto;
+}
+
+.socialIcons .post-count .post-count-value {
+	margin-top: auto;
+	font-size: 0.75em;
+	line-height: 0.75em;
+}
+
+.socialIcons .post-count .post-count-value::before {
+	/* margin-bottom: -7px; */
+	display: block;
+	content: "";
+	position: absolute;
+	width: 0;
+	left: 15px;
+	border-style: solid;
+	border-width: 9px 0 0 8px;
+	border-color: rgb(102, 102, 102) transparent;
+}
+
+.socialIcons .post-count .post-count-value::after {
+	margin-bottom: -6px;
+	display: block;
+	content: "";
+	position: absolute;
+	width: 0;
+	left: 16px;
+	border-style: solid;
+	border-width: 6px 0 0 6px;
+	border-color: rgb(255, 255, 255) transparent;
 }
 
 aside {
