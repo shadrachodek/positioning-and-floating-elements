@@ -9,5 +9,5 @@
 This assignment consists of making a clone of a New York Times article page.
 
 ### Link to the live demo
-N/A
+https://shadymedy.github.io/positioning-and-floating-elements
 
