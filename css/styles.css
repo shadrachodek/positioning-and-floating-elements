@@ -405,15 +405,22 @@ h2.subheading {
 }
 
 .bottom-content {
-	width: 1400px;
+	width: 1200px;
 	margin: auto;
 }
 
+
 .more-space-cosmos {
 	width: 70%;
-	border-top: 1px solid black;
 	display: inline-block;
 	vertical-align: top;
+}
+
+.more-space-cosmos-hr {
+	border: none;
+	background-color: black;
+	margin: 0 10px;
+	height: 1px;
 }
 
 .most-popular {
@@ -424,8 +431,8 @@ h2.subheading {
 }
 
 .image-grid {
-	width: 32%;
-	display: inline-block;
+	max-width: 33.33%;
+	float: left;
 	padding: 10px;
 }
 
@@ -435,7 +442,6 @@ div.image-grid figcaption {
 }
 
 .image-grid img {
-	height: auto;
 	max-width: 100%;
 }
 
