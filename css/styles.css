@@ -18,6 +18,16 @@ ul li {
 	list-style-type: none;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.bigImage {
+	width: 1200px;
+	margin: 0 auto;
+}
+
 .fixed-bar {
 	border: 1px solid #e2e2e2;
 	box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.1);
@@ -100,30 +110,37 @@ main {
 h1 {
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
 	width: 40%;
-	margin-right: auto;
-	margin-left: auto;
+	/* margin-right: auto; */
+	font-size: 1.9375rem;
+	width: 600px;
+	max-width: 600px;
+	line-height: 2.5rem;
+	font-style: italic;
+	margin: 0 10rem 2rem;
 }
 
 .headline span {
 	display: inline-block;
 	color: black;
+	max-width: 3px;
 }
 
 .mainImg {
-	width: 75%;
-	margin-right: auto;
-	margin-left: auto;
+	width: 100%;
+	margin: 0 auto;
 	cursor: pointer;
 }
 
 .mainImg img {
 	width: 100%;
-	height: 500px;
+	/* height: 500px; */
 }
 
 .mainImg figure figcaption {
-	text-align: left;
+	/* text-align: left; */
 	color: #666;
+	font-size: 0.9375rem;
+	line-height: 1.25rem;
 	margin-right: 20%;
 }
 
@@ -132,6 +149,8 @@ h1 {
 	width: 45%;
 	margin-right: auto;
 	margin-left: auto;
+	color: #121212;
+	/* margin-bottom: 20px; */
 	font-size: 1.25rem;
 	line-height: 1.875rem;
 }
@@ -143,9 +162,10 @@ h1 {
 }
 
 .author-name a {
-	font-size: 0.9em;
+	font-size: 0.9375rem;
 	color: #333;
 	font-weight: 700;
+	line-height: 1.25rem;
 	text-decoration: none;
 }
 
@@ -432,7 +452,7 @@ h2.subheading {
 
 .image-grid {
 	max-width: 33.33%;
-	float: left;
+	float: right;
 	padding: 10px;
 }
 
@@ -463,9 +483,19 @@ div.image-grid figcaption {
 }
 
 .editors-picks {
-	border-top: 1px solid black;
-	margin-top: 16px;
+	clear: both;
 	padding-top: 4px;
+}
+
+.editors-picks-hr {
+	border: none;
+	background-color: black;
+	height: 1px;
+	margin: 20px 10px 0 10px;
+}
+
+.editors-picks-h2 {
+	padding-left: 10px;
 }
 
 footer {
@@ -619,6 +649,6 @@ ul#most-popular li {
 	left: 0;
 	width: 100%;
 	height: 55px;
-    border-top: 1px solid black;
-    cursor: pointer;
+	border-top: 1px solid black;
+	cursor: pointer;
 }
